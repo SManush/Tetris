@@ -486,6 +486,7 @@ MonoBehaviour:
   - tetromino: 6
     tile: {fileID: 11400000, guid: cf1e9072254c1a047b646b1f44c61b2a, type: 2}
   spawnPosition: {x: -1, y: 8, z: 0}
+  boardSize: {x: 10, y: 20}
 --- !u!114 &897950380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,7 +603,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd4265dc5a8e10e4e8ca9981dccd8fc9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.13, g: 0.2, b: 0.23, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
